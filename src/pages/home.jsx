@@ -67,7 +67,7 @@ function Home() {
         ) : (
           <div className=" flex justify-between items-center gap-8 pt-[300px]">
             <div className="text-center text-4xl text-gray-800 font-semibold ">
-              Empty cart
+              Oops ! No item with this name available
             </div>
             <TfiFaceSad className="text-7xl text-gray-800" />
           </div>
@@ -148,7 +148,7 @@ function Home() {
         ) : (
           <div className=" flex justify-between items-center gap-8 pt-[300px]">
             <div className="text-center text-4xl text-pink-600 font-semibold ">
-              Empty cart
+              Oops ! Empty cart
             </div>
             <TfiFaceSad className="text-7xl text-pink-600" />
           </div>
